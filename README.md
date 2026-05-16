@@ -4,8 +4,7 @@
 
 ## Overview
 This folder contains detailed documentation of hands-on 
-cybersecurity labs completed during my training and 
-internship program.
+cybersecurity labs.
 
 ---
 
