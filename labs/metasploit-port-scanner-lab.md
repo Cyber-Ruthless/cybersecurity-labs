@@ -111,3 +111,29 @@ Next step — exploitation.
 - Exploit anonymous FTP on 10.10.1.19
 - Enumerate Active Directory on 10.10.1.22
 - Run vulnerability scripts against open services
+
+
+---
+
+## Screenshots
+
+### Portscan Modules
+
+
+![Portscan Modules](../images/photo_2026-07-27_03-39-44.jpg)
+
+
+
+### Scan Results
+
+
+![Scan Results](../images/photo_2026-07-27_03-39-58.jpg)
+
+
+
+### Scan Complete
+
+
+![Scan Complete](../images/photo_2026-07-27_03-40-02.jpg)
+
+
