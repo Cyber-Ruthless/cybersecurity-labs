@@ -55,6 +55,7 @@ MAC Address = 00-0C-29-1B-D9-36
 - @@MSBROWSE confirms this machine is the
   local master browser on the network
 
+![NetBIOS Name Table](../images/IMG_20260730_181322_692.jpg)
 ---
 
 ## Command 2 — NetBIOS Cache Table
@@ -114,6 +115,7 @@ Unavailable Z:      \\WINDOWS11\CEH-Tools       Microsoft Windows Network
 | <1E> | GROUP | Browser elections |
 | <1D> | UNIQUE | Master browser |
 
+![NetBIOS Cache and Net Use](../images/IMG_20260730_181323_673.jpg)
 ---
 
 ## Lessons Learned
