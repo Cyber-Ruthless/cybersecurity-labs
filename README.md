@@ -18,6 +18,8 @@ cybersecurity labs.
 | 4 | [NetBIOS Enumeration](netbios-enumeration-lab.md) | Enumeration | 2026-07-30 |
 | 5 | [SMTP Enumeration](smtp-enumeration-lab.md) | Enumeration | 2026-07-30 |
 | 6 | [LDAP Enumeration](ldap-enumeration-lab.md) | Enumeration | 2026-07-30 |
+| 7 | [DNS Enumeration](labs/dns-enumeration-lab.md) | Enumeration | 2026-07-30 |
+| 8 | [SNMP Enumeration](labs/snmp-enumeration-lab.md) | Enumeration | 2026-07-27 |
 ---
 
 ## Categories
