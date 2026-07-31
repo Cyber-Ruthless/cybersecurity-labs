@@ -23,8 +23,12 @@ cybersecurity labs.
 ---
 
 ## Categories
-- Honeypot Deployment — Setting up deception technologies
-- Exploitation — Attacking vulnerable systems in lab environments
-- Reconnaissance — Information gathering techniques
+
+- Honeypot Deployment — Setting up deception technologies to detect attackers
+- Reconnaissance — Information gathering and network scanning techniques
+- Exploitation — Attacking vulnerable systems in controlled lab environments
+- Enumeration — Extracting detailed information from target services including NetBIOS, SMTP, LDAP, DNS and SNMP
+
+
 
 ---
