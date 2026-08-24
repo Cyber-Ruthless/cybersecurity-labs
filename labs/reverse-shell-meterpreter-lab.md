@@ -46,7 +46,7 @@ Saved as: reverse.exe
 
 
 
-![MSFVenom Payload Generation](../images/IMG_20260824_112708_393.jpg)
+![MSFVenom Payload Generation](../images/IMG_20260824_112708_855.jpg)
 
 
 
@@ -68,7 +68,7 @@ set lhost 10.10.1.13; set lport 4444; exploit"
 
 
 
-![Revshells.com Payload Generator](../images/IMG_20260824_112708_855.jpg)
+![Revshells.com Payload Generator](../images/IMG_20260824_112708_393.jpg)
 
 
 
