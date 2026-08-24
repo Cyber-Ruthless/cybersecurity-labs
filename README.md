@@ -20,6 +20,7 @@ cybersecurity labs.
 | 6 | [LDAP Enumeration](ldap-enumeration-lab.md) | Enumeration | 2026-07-30 |
 | 7 | [DNS Enumeration](labs/dns-enumeration-lab.md) | Enumeration | 2026-07-30 |
 | 8 | [SNMP Enumeration](labs/snmp-enumeration-lab.md) | Enumeration | 2026-07-27 |
+| 9 | [OpenVAS Vulnerability Scanning](labs/openvas-vulnerability-scan-lab.md) | Vulnerability Assessment | 2026-06-29 |
 ---
 
 ## Categories
