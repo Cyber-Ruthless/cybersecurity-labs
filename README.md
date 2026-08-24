@@ -21,6 +21,7 @@ cybersecurity labs.
 | 7 | [DNS Enumeration](labs/dns-enumeration-lab.md) | Enumeration | 2026-07-30 |
 | 8 | [SNMP Enumeration](labs/snmp-enumeration-lab.md) | Enumeration | 2026-07-27 |
 | 9 | [OpenVAS Vulnerability Scanning](labs/openvas-vulnerability-scan-lab.md) | Vulnerability Assessment | 2026-06-29 |
+| 10 | [Reverse Shell & Meterpreter Session](labs/reverse-shell-meterpreter-lab.md) | Exploitation | 2026-08-16 |
 ---
 
 ## Categories
@@ -29,6 +30,8 @@ cybersecurity labs.
 - Reconnaissance — Information gathering and network scanning techniques
 - Exploitation — Attacking vulnerable systems in controlled lab environments
 - Enumeration — Extracting detailed information from target services including NetBIOS, SMTP, LDAP, DNS and SNMP
+- Vulnerability Assessment — Identifying and cataloguing security weaknesses using OpenVAS
+ Exploitation — Gaining remote access through reverse shells and Meterpreter sessions
 
 
 
