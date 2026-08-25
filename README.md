@@ -26,6 +26,7 @@ cybersecurity labs.
 | 12 | [MSFVenom Payload Delivery & Privilege Escalation](labs/msfvenom-privilege-escalation-lab.md) | Exploitation | 2026-08-21 |
 | 13 | [UAC Bypass & Privilege Escalation](labs/uac-bypass-privilege-escalation-lab.md) | Exploitation | 2026-08-18 |
 | 14 | [LLMNR Poisoning & NTLMv2 Hash Cracking](labs/llmnr-poisoning-hash-cracking-lab.md) | Reconnaissance | 2026-08-16 |
+| 15 | [Covering Tracks](labs/covering-tracks-lab.md) | Post Exploitation | 2026-08-21 |
 ---
 
 ## Categories
