@@ -23,6 +23,7 @@ cybersecurity labs.
 | 9 | [OpenVAS Vulnerability Scanning](labs/openvas-vulnerability-scan-lab.md) | Vulnerability Assessment | 2026-06-29 |
 | 10 | [Reverse Shell & Meterpreter Session](labs/reverse-shell-meterpreter-lab.md) | Exploitation | 2026-08-16 |
 | 11 | [Hoax Shell & Meterpreter Session](labs/hoax-shell-meterpreter-lab.md) | Exploitation | 2026-08-16 |
+| 12 | [MSFVenom Payload Delivery & Privilege Escalation](labs/msfvenom-privilege-escalation-lab.md) | Exploitation | 2026-08-21 |
 ---
 
 ## Categories
