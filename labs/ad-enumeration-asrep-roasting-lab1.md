@@ -1,4 +1,4 @@
-# Active Directory Enumeration & AS-REP Roasting — CEH.com Lab
+# Active Directory & AS-REP Roasting — CEH.com Lab
 
 A full attack-chain walkthrough against a Windows Active Directory environment (`CEH.com`), covering network reconnaissance, Kerberos AS-REP roasting, offline password cracking, credential validation, and post-compromise AD enumeration with PowerView.
 
