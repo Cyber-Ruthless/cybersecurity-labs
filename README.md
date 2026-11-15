@@ -27,6 +27,13 @@ cybersecurity labs.
 | 13 | [UAC Bypass & Privilege Escalation](labs/uac-bypass-privilege-escalation-lab.md) | Exploitation | 2026-08-18 |
 | 14 | [LLMNR Poisoning & NTLMv2 Hash Cracking](labs/llmnr-poisoning-hash-cracking-lab.md) | Reconnaissance | 2026-08-16 |
 | 15 | [Covering Tracks](labs/covering-tracks-lab.md) | Post Exploitation | 2026-08-21 |
+| 16 | [AD Enumeration & AS-REP Roasting](labs/ad-enumeration-asrep-roasting-lab.md) | Enumeration / Credential Access | 2026-09-12 |
+| 17 | [MAC Flooding Attack (CAM Table Overflow)](labs/mac-flooding-macof-lab.md) | Network Attacks | 2026-09-13 |
+| 18 | [DHCP Starvation Attack with Yersinia](labs/dhcp-starvation-yersinia-lab.md) | Network Attacks | 2026-09-13 |
+| 19 | [Android Device Control via ADB (PhoneSploit Pro)](labs/android-phonesploit-lab.md) | Mobile Exploitation | 2026-10-24 |
+| 20 | [AndroRAT: Malicious APK Delivery & Reverse Shell](labs/androrat-reverse-shell-lab.md) | Mobile Exploitation | 2026-10-24 |
+| 21 | [HTTP Credential Sniffing with Wireshark](labs/http-credential-sniffing-lab.md) | Credential Access | 2026-10-25 |
+| 22 | [Multi-Layer Hashing with CyberChef](labs/multi-layer-hashing-cyberchef-lab.md) | Cryptography | 2026-10-25 |
 ---
 
 ## Categories
@@ -37,6 +44,10 @@ cybersecurity labs.
 - Enumeration — Extracting detailed information from target services including NetBIOS, SMTP, LDAP, DNS and SNMP
 - Vulnerability Assessment — Identifying and cataloguing security weaknesses using OpenVAS
  Exploitation — Gaining remote access through reverse shells and Meterpreter sessions
+- Network Attacks — Layer 2/3 attacks targeting switches and DHCP services (MAC flooding, DHCP starvation)
+- Mobile Exploitation — Gaining and maintaining remote access to Android devices via ADB and trojanized APKs
+- Credential Access — Capturing, roasting, cracking, and validating credentials across multiple protocols
+- Cryptography — Exploring hashing, encoding, and keyed-hash (HMAC) operations
 
 
 
